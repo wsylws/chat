@@ -29,9 +29,9 @@ const User = mongoose.model('user', new mongoose.Schema({
 // })
 
 // 更新
-User.update({'user':'xiaoming'},{'$set':{age:26}},function(err,doc){
-    console.log(doc)
-})
+// User.update({'user':'xiaoming'},{'$set':{age:26}},function(err,doc){
+//     console.log(doc)
+// })
 // 新建APP
 
 const app = express()
